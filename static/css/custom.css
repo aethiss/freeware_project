@@ -1,0 +1,477 @@
+html {
+  height: 100%;
+}
+
+body {
+  /*padding-top: 60px;*/
+  background: transparent;
+  font-size: 1.6em;
+  height: 100%;
+}
+div.row {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+
+}
+
+div.t-img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.t-img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.card-counter{
+  box-shadow: 2px 2px 10px #DADADA;
+  height: 150px;
+  border-radius: 5px;
+  transition: .3s linear all;
+}
+
+.card-counter:hover{
+  box-shadow: 4px 4px 20px #DADADA;
+  transition: .3s linear all;
+}
+
+.card-counter.tech{
+  background-color: #007bff;
+  opacity: 0.7;
+  color: #FFF;
+}
+
+.card-counter.tech:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.card-counter.science{
+  background-color: #ef5350;
+  opacity: 0.7;
+  color: #FFF;
+}
+
+.card-counter.science:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.card-counter.games{
+  background-color: #66bb6a;
+  opacity: 0.7;
+  color: #FFF;
+}
+
+.card-counter.games:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.card-counter.arts{
+  background-color: #26c6da;
+  opacity: 0.7;
+  color: #FFF;
+}
+
+.card-counter.arts:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.card-counter img{
+  opacity: 0.5;
+}
+
+.card-counter .count-numbers{
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  font-size: 12px;
+  display: block;
+  padding: 2px;
+  background-color: #ccffff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px #003333;
+  opacity: 0.7;
+  color: #000;
+}
+
+.card-counter .count-name{
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.7;
+  display: block;
+  font-size: 18px;
+}
+
+.card-counter .count-title{
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  font-style: normal;
+  text-transform: capitalize;
+  opacity: 1.0;
+  display: block;
+  font-size: 18px;
+}
+
+.card-counter .count-description{
+  position: absolute;
+  left: 25px;
+  top: 70px;
+  padding: 10px;
+  font-style: normal;
+  text-transform: capitalize;
+  opacity: 1.0;
+  display: block;
+  font-size: 15px;
+}
+
+.pane a{
+  text-decoration: none;
+  color:#FFF;
+}
+.pane{
+  box-shadow: 2px 2px 10px #DADADA;
+  margin: 5px;
+  padding: 20px 10px;
+
+  border-radius: 5px;
+  transition: .3s linear all;
+  opacity: 0.7;
+}
+
+.pane .pane-title{
+  margin: 5px;
+
+  font-size: 0.9em;
+  text-align:center;
+
+}
+
+.pane .pane-row{
+  margin: 2px;
+  overflow:hidden;
+
+}
+
+.pane-row.tech{
+  background-color: #007bff;
+  opacity: 0.7;
+  color: #FFF;
+
+}
+
+.pane-row.tech:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.pane-row.science{
+  background-color: #ef5350;
+  opacity: 0.7;
+  color: #FFF;
+}
+
+.pane-row.science:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.pane-row.games{
+  background-color: #66bb6a;
+  opacity: 0.7;
+  color: #FFF;
+}
+
+.pane-row.games:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.pane-row.arts{
+  background-color: #26c6da;
+  opacity: 0.7;
+  color: #FFF;
+}
+
+.pane-row.arts:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.pane .pane-topic{
+  float:right;
+  font-size: 0.7em;
+  margin-right: 10px;
+
+}
+
+.pane .pane-count{
+  float:left;
+  font-size: 0.5em;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: #ccffff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px #003333;
+  opacity: 0.7;
+  color: #000;
+}
+
+
+.centered{
+  text-align:center;
+
+}
+
+.table-hover tbody tr:hover td {
+  background: aqua;
+}
+td {border: transparent solid 1px ;}
+
+table.mytable { border-collapse: collapse; ;
+  font: .6em/1.2em Georgia, "Times New Roman", Times, serif;  }
+.mytable caption { font-size: 1.3em; font-weight: bold; text-align: left; padding: 1em 4px; }
+.mytable td ,
+.mytable th { padding: 3px 3px 3px 3px; line-height: 1.3em; }
+.mytable th {  font-weight: bold; text-align: left; padding-right: .5em; vertical-align: top; }
+.mytable thead th {  text-align: center;  }
+.mytable td a{ color: #fff; }
+.mytable td a:link { color: #000; }
+.mytable td a:visited { color: #466C8E; }
+.mytable td a:hover,
+.mytable td a:focus { color: #1E4C94; }
+.mytable th a { color: #000; }
+.mytable td a:active { color: #fff; }
+.mytable tfoot th,
+.mytable tfoot td { background: #2C5755; color: #fff; }
+.mytable th + td { padding-left: .5em; }
+
+table.mytable { border-collapse: collapse; ;
+  font: .6em/1.2em Georgia, "Times New Roman", Times, serif;  }
+.blue   {background: #eaeef9; color: #033;      }
+.blueth {background: #5a9bd5; color: #eaeef9; }
+.red   {background: #fcece8; color: #033;  }
+.green   {background: #ebf1e9; color: #033;      }
+.greenth {background: #70ad47; color: #eaeef9;}
+.yellow   {background: #fff4e7; color: #033;      }
+.yellowth {background: #ffc000; color: #eaeef9;}
+
+.aligned-container {
+  position: relative;
+}
+.aligned-top {
+  position: absolute;
+  top: 0;
+}
+.aligned-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.aligned-centered {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 1px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.filter {
+  width: 100%;
+  padding: 20px 10px 10px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid grey;
+}
+.filter a {
+  color: #333;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.filter a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.project {
+  witdh: unset;
+  margin: 0 ;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid grey;
+  font-size: 0.8em;
+}
+.projectTagsLabel {
+  text-align: center;
+  font-size: 0.7em;
+  background-color: #f3bb94;
+  color: #fff;
+  opacity: 0.7;
+}
+.projectTags {
+  text-align: center;
+  font-size: 0.7em;
+}
+.project a {
+  color: #333;
+
+  opacity: 0.8;
+}
+.project a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+.projectLabel {
+  background-color: #f3bb94;
+  color: #fff;
+  opacity: 0.7;
+}
+.selected {
+  background-color: #acdaad;
+
+}
+.elapsed {
+  font-size: 0.5em;
+  font-style: italic;
+}
+
+.results{
+  font-size: 0.8em;
+  transition: .3s linear all;
+}
+
+.results-title{
+
+}
+
+.results:hover{
+  box-shadow: 4px 4px 20px #DADADA;
+  transition: .3s linear all;
+  background: #eaeef9;
+}
+
+.results-description{
+}
+
+.results-hits{
+  position: absolute;
+  right: 155px;
+  top: 0.1em;
+  font-style: italic;
+  opacity: 1.0;
+  display: block;
+  font-size: 0.8em;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.results-people{
+  position: absolute;
+  right: 110px;
+  top: 0.1em;
+  font-style: italic;
+  opacity: 1.0;
+  display: block;
+  font-size: 0.8em;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.results-time{
+  position: absolute;
+  right: 0px;
+  top: 0.1em;
+  font-style: italic;
+  opacity: 1.0;
+  display: block;
+  font-size: 0.8em;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.results-tags{
+  color: #1E4C94;
+}
+
+.results-nav{
+  color: #1E4C94;
+  font-size: 0.7em;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}

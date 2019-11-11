@@ -1,0 +1,62 @@
+.wrapper {
+  padding: 25px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  /*flex-basis: 100%;*/
+  flex: 1;
+  /*border: 1px solid darkred;*/
+}
+
+/* buttons */
+.opaque {
+  opacity: 0.8;
+}
+
+.opaque:hover {
+  opacity: 1;
+}
+
+/* homepage explore */
+.bodyContainer {
+  min-height: 100%;
+  height: auto !important; /*min-height hack*/
+  height: 100%;            /*min-height hack*/
+  margin:0;
+  padding:0;
+  background:transparent url('/static/img/child.svg') no-repeat left top;
+}
+
+/* Register */
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+.inputError {
+  border: 1px solid red;
+}
+
+/* for testing */
+.blue-column {
+  background-color: #007bff;
+}
+
+.green-column {
+  background-color: #66bb6a;
+}
+
